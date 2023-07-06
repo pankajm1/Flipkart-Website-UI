@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    
+
+
+
+header {
+    display: flex;
+    height: 10vh;
+    background-color: rgb(37, 103, 201);
+    width: 100%;
+    
+}
+nav{
+    display: flex;
+    
+    width: 100%;
+    padding-top: 20px;
+    
+
+
+}
+
+ #logo{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+   
+
+    
+}
+
+#search{
+    
+   position: absolute;
+   left: 300px;
+   
+    
+    
+}
+
+input{
+    width: 250px;
+    height: 20px;
+    border-radius: 3px;
+}
+.btn{
+    position: absolute;
+    left: 580px ;
+    height: 23px;
+    width: 60px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+
+
+ul{
+    margin-left: 15vw;
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    right: 10px;
+
+    
+}
+li{
+    padding: 0px 20px;
+    font-size: large;
+    cursor: pointer;
+} 
+
+
+
+
+main {
+    display: block;
+    height: 250vh;
+    width: 100%;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    background-color: white;
+
+
+}
+
+.container img {
+    margin: 0vw 0.2vw;
+   
+}
+
+.card-items {
+    display: inline-block;
+    margin: 0px 25px;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    
+  }
+  
+
+  
+.slide{
+    position: absolute;
+    height: 300px;
+    transition: 0.3s;
+    width: 1349px;
+    /* animation: slide 60s linear infinite; */
+  }
+  
+ .prev-btn,.next-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 45px;
+    cursor: pointer;
+  }
+  
+.prev-btn {
+    margin-right: 10px;
+    position: absolute;
+    left: 30px;
+  }
+  
+.next-btn {
+    margin-left: 10px;
+    position: absolute;
+    right: 30px;
+  }
+  
+
+
+
+.slider{
+    display: flex;
+    justify-content: center;
+    
+} 
+
+
+
+.products {
+    margin: 0px 30px;
+    margin-top: 30px;
+}
+h2{
+    margin-top: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+hr{
+    border-color: rgb(37, 103, 201);
+    margin:20px 30px;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 103, 201);
+    color: white;
+    height: 10vh;
+    margin-top: 150px;
+}
+
+/* @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    33.33% {
+      transform: translateX(-100%);
+    }
+    66.66% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(-300%);
+    }
+  } */
+  
+  
+  
+  
+  
+  
+  
